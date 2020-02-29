@@ -8,15 +8,18 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="Title" scroll>
+        <Header className="header-color" title="Sasha Gemis Portfolio" scroll>
             <Navigation>
+                <Link to="/aboutme"> About Me </Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/aboutme"> About Me </Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
+                <Link to="/aboutme"> About Me </Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
